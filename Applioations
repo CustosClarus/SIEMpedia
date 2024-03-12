@@ -153,13 +153,13 @@ Document Information
 Document Title
 Incident Response Policy
 Drafted by
-NADRA IS Operations team
+CustosClarus IS Operations team
 Draft Date
 Jan 5, 2013
 Owner
-NADRA
+CustosClarus
 Classification/ Classification Authority
-Internal / NADRA
+Internal / CustosClarus
 Release Version
 1.1
 Reference document 
@@ -200,7 +200,7 @@ The owners are responsible for:-
         3.5.  Management
 The management is responsible for:-
     • Establishing a mechanism to update the audit procedures.
-    • Establishing a periodic review of audit activities and to adjust those audit activities to better support the NADRA’s business goals
+    • Establishing a periodic review of audit activities and to adjust those audit activities to better support the CustosClarus’s business goals
     4. Use-Case definition and Attributes
         4.1. Section ID: Application
             4.1.1. Sub-section ID: Inside Attack
@@ -381,7 +381,7 @@ N/A
                     4.1.1.1.6. Dependency 
 N/A
                     4.1.1.1.7. Affected Area
-    • All NADRA domain machines.
+    • All CustosClarus domain machines.
     • Critical unix servers
     • Core network devices (public facing)
 
@@ -483,7 +483,7 @@ Use this configuration 4.1.1.1 to setup apache and IIS.
     4. UAC may be blocking the OSSEC service from communicating with the manager on Windows 
 
                     4.1.2.1.8. Affected Area
-    • All NADRA critical applications
+    • All CustosClarus critical applications
                     4.1.2.1.9. References 
 http://www.ossec.net/doc/rules/rules/50_web_rules.xml.html
 
@@ -516,7 +516,7 @@ For OSSEC use the troubleshooting steps given in section 4.1.1.1
                     4.1.3.1.7. Dependency 
 N/A 
                     4.1.3.1.8. Affected Area
-    • All NADRA critical applications.
+    • All CustosClarus critical applications.
                     4.1.3.1.9. References 
 [1] http://stackoverflow.com/questions/3389169/put-username-in-apache-access-log-with-php-and-without-http-auth
 [2]http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/676400bc-8969-4aa7-851a-9319490a9bbb.mspx?mfr=true
@@ -572,7 +572,7 @@ N/A
 N/A
 
                     4.1.3.2.8. Affected Area
-    • All NADRA critical applications.
+    • All CustosClarus critical applications.
                     4.1.3.2.9. References 
 [1] http://www.microsoft.com/en-us/download/details.aspx?id=26798
                 4.1.3.3. Reference ID: 1.3.3.3
@@ -600,7 +600,7 @@ N/A
     2. UAC may be blocking the OSSEC service from communicating with the manager on Windows 
 
                     4.1.3.3.8. Affected Area
-    • All NADRA critical applications.
+    • All CustosClarus critical applications.
                     4.1.3.3.9. References 
 [1] http://httpd.apache.org/docs/1.3/logs.html#accesslog
 [2] http://httpd.apache.org/docs/current/mod/mod_log_config.html
@@ -629,7 +629,7 @@ N/A
                     4.1.3.5.7. Limitations
 N/A
                     4.1.3.5.8. Affected Area
-    • All NADRA public facing critical applications.
+    • All CustosClarus public facing critical applications.
                     4.1.3.5.9. References 
 N/A
                 4.1.3.6. Reference ID: 1.3.3.6
@@ -664,14 +664,14 @@ For OSSEC use the troubleshooting steps given in section 4.1.1.1
                     4.1.3.6.6. Dependency
 N/A
                     4.1.3.6.7. Affected Area
-    • All NADRA critical applications.
+    • All CustosClarus critical applications.
                     4.1.3.6.8. Limitations
 N/A
                     4.1.3.6.9. References 
 [1] http://www.ossec.net/
                 4.1.3.7. Reference ID: 1.3.3.7
                     4.1.3.7.1. Goal
-This use case will allow the SOC team to monitor and detect if sip call is made from within NADRA to any foreign country other than authorized personnel’s.
+This use case will allow the SOC team to monitor and detect if sip call is made from within CustosClarus to any foreign country other than authorized personnel’s.
                     4.1.3.7.2. Sources
 Asterix 
                     4.1.3.7.3. Requirements
@@ -757,7 +757,7 @@ For OSSEC use the troubleshooting steps given in section 4.1.1.1
                     4.1.4.1.6. Dependency
 N/A
                     4.1.4.1.7. Affected Area
-    • All NADRA critical applications.
+    • All CustosClarus critical applications.
                     4.1.4.1.8. References 
 [1]http://serverfault.com/questions/359476/how-to-log-the-url-scheme-http-https-in-apache
 [2] http://www.simonecarletti.com/blog/2009/01/logging-external-referers-with-apache/
@@ -801,7 +801,7 @@ N/A
                     4.1.4.2.7. Limitations
 N/A
                     4.1.4.2.8. Affected Area
-    • All NADRA critical applications.
+    • All CustosClarus critical applications.
 
                     4.1.4.2.9. References 
 [1]http://www.symantec.com/business/support/index?page=content&id=HOWTO27571
@@ -854,7 +854,7 @@ N/A
                     4.1.4.3.5. Troubleshooting
 N/A
                     4.1.4.3.6. Affected Area
-    • All NADRA critical applications.
+    • All CustosClarus critical applications.
                     4.1.4.3.7. Dependency 
     1. Make sure the agent is connected to the server. Agent connectivity can be verified by running the list_agent utility at /var/ossec/bin/ directory with a –c switch.
     2. Verify that there is no configuration error in the ossec.conf file and the syntax is correct. This can be verified by checking the ossec.log file in the agent machine.
@@ -886,6 +886,6 @@ N/A
                     4.1.5.1.7. Dependency
 N/A
                     4.1.5.1.8. Affected Area
-    • All NADRA critical applications.
+    • All CustosClarus critical applications.
                     4.1.5.1.9. References 
 [1] http://www.ossec.net/
