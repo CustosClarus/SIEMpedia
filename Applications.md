@@ -1,33 +1,33 @@
-#SIEM USE CASEs configuration and compliance document
+# **SIEM USE CASEs configuration** 
+## Baselining the systems against SOC operational requirements
 
-
-TABLE OF CONTENTS
-1. Background	6
-2. Scope	6
-3. Responsibility	6
-3.1.	SOC team	6
-3.2.	GRC Team	6
-3.3.	Internal Audit	6
-3.4.	Systems / Control owners	6
-3.5.	Management	7
-4. Use-Case definition and Attributes	7
-4.1.	Section ID: Application	7
-4.1.1. Sub-section ID: Inside Attack	7
-4.1.1.1. Reference ID: 1.3.1.1.	7
-4.1.1.1.1. Goal	7
-4.1.1.1.2. Sources	7
-4.1.1.1.3. Requirements	7
-4.1.1.1.4. Troubleshooting steps	10
-4.1.1.1.5. Event to ID mapping	12
-4.1.1.1.6. Dependency	12
-4.1.1.1.7. Affected Area	12
-4.1.1.1.8. Limitations	12
-4.1.1.1.9. References	12
+## TABLE OF CONTENTS
+1. Background	[here](#Background)
+2. Scope	
+3. Responsibility
+ - 3.1. SOC team	
+ - 3.2.	GRC Team	
+ - 3.3.	Internal Audit	
+3.4.	Systems / Control owners	
+3.5.	Management	
+5. Use-Case definition and Attributes	
+4.1.	Section ID: Application	
+4.1.1. Sub-section ID: Inside Attack	
+4.1.1.1. Reference ID: 1.3.1.1.	
+4.1.1.1.1. Goal	
+4.1.1.1.2. Sources	
+4.1.1.1.3. Requirements	
+4.1.1.1.4. Troubleshooting steps	
+4.1.1.1.5. Event to ID mapping	
+4.1.1.1.6. Dependency	
+4.1.1.1.7. Affected Area	
+4.1.1.1.8. Limitations	
+4.1.1.1.9. References	
 4.1.1.2. Reference ID: 1.3.1.2	12
-4.1.1.2.1. Goal	12
-4.1.1.2.2. Sources	12
-4.1.1.2.3. Requirements	13
-4.1.1.2.4. Event to ID mapping	13
+4.1.1.2.1. Goal	
+4.1.1.2.2. Sources	
+4.1.1.2.3. Requirements	
+4.1.1.2.4. Event to ID mapping	
 4.1.1.2.5. Troubleshooting steps	13
 4.1.1.2.6. Dependency	13
 4.1.1.2.7. Limitations	13
