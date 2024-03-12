@@ -2,7 +2,7 @@
 ## Baselining the systems against SOC operational requirements
 
 ## TABLE OF CONTENTS
-1. [Background](#Background)
+1. [Background](#1.Background)
 2. Scope	
 3. Responsibility
  - 3.1. SOC team	
@@ -176,7 +176,7 @@ Published Date
 
 
 
-### Background
+### 1. Background
 The purpose of this document is to illustrate assets owners the underlying procedural requirements and configurations necessary to operate and sustain SOC operations. The understanding of these requirements by owners is critically important in determining the success of SOC operations, In case of any change resulting due to improper configuration or management of these requirements can directly impact the performance of SOC operations team in timely detection and response to security incidents.
     2. Scope
 The scope of this exercise stretches within the bounds of use-cases requirements mentioned in the SOC implementation plan referenced above (Document Information).
