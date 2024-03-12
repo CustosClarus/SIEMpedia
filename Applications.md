@@ -2,7 +2,7 @@
 ## Baselining the systems against SOC operational requirements
 
 ## TABLE OF CONTENTS
-1. [Background](###1.Background)
+1. [Background](###1-Background)
 2. Scope	
 3. Responsibility
  - 3.1. SOC team	
